@@ -1,0 +1,108 @@
+/* Resetting margins and padding for body and h1 */
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting font-family for the entire body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Content container */
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form styles */
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form paragraph styles */
+form p {
+  margin: 10px 0;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+}
+
+/* Text input styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Radio input styles */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Submit button styles */
+button[type="submit"] {
+  background-color: green; /* Green color for submit button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Submit button hover styles */
+button[type="submit"]:hover {
+  background-color: rgb(103, 206, 1);
+  color: #333;
+}
+
+/* Delete button styles */
+.delete-btn {
+  background-color: red; /* Red color for delete button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Delete button hover styles */
+.delete-btn:hover {
+  background-color: darkred;
+  color: #fff;
+}
+
+/* Todo item styles */
+.todo {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styles inside todo items */
+.todo p {
+  margin: 0;
+}
+
+/* Italic text styles inside todo items */
+.todo i {
+  color: #888;
+}
